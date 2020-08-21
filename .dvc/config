@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "s3remote"']
+    url = ../url
+['remote "myremote"']
+    url = s3://szgreengarden/dvc
